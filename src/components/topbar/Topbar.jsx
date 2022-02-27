@@ -1,5 +1,5 @@
 import "./topbar.scss";
-import { Person, Mail, GitHub, LinkedIn } from "@material-ui/icons";
+import { Person, Mail, GitHub, LinkedIn, CloudDownload } from "@material-ui/icons";
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -24,6 +24,10 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           <div className="itemContainer">
             <LinkedIn className="icon" />
             <span>navasmo</span>
+          </div>
+          <div className="itemContainer">
+            <CloudDownload className="icon" />
+            <span>CV</span>
           </div>
         </div>
         <div className="right">
