@@ -70,9 +70,9 @@
       }
 
       &:hover {
-        background-color: $mainColor;
+        background-color: rgb(2, 109, 209) ;
         img {
-          opacity: 0.2;
+          opacity: 0.1;
           z-index: 0;
         }
       }

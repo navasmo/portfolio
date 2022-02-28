@@ -14,21 +14,21 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <Phone className="icon" />
             <span>+44 7429006011</span>
           </div>
-          <Button className="itemContainer" href="mailto:vhnavasse@gmail.com">
+          <Button className="itemContainer" style={{textTransform: 'none'}} href="mailto:vhnavasse@gmail.com">
             <Mail className="icon" />
             <span>vhnavasse@gmail.com</span>
           </Button>
-          <Button className="itemContainer" href="https://github.com/navasmo" target="_blank">
+          <Button className="itemContainer" style={{textTransform: 'none'}} href="https://github.com/navasmo" target="_blank">
             <GitHub className="icon" />
             <span>navasmo</span>
           </Button>
-          <Button className="itemContainer"  href="https://www.linkedin.com/in/navasmo/" target="_blank">
+          <Button className="itemContainer"  style={{textTransform: 'none'}} href="https://www.linkedin.com/in/navasmo/" target="_blank">
             <LinkedIn className="icon" />
             <span>navasmo</span>
           </Button>
-          <Button className="itemContainer" href="https://docs.google.com/document/d/1sg4oUc7RyvzX2vc4rHxzohqS61IWs9ts/edit?usp=sharing&ouid=107024906914517971505&rtpof=true&sd=true">
+          <Button className="itemContainer" style={{textTransform: 'none'}} href="https://docs.google.com/document/d/1sg4oUc7RyvzX2vc4rHxzohqS61IWs9ts/edit?usp=sharing&ouid=107024906914517971505&rtpof=true&sd=true">
             <CloudDownload className="icon" />
-            <span>CV</span>
+            <span>resume</span>
           </Button>
         </div>
         <div className="right">

@@ -23,16 +23,17 @@ export default function Portfolio() {
     },
     {
       id: "mobile",
-      title: "Mobile App",
+      title: "Graphic Design",
     },
     {
       id: "design",
-      title: "Design",
+      title: "Websites",
     },
     {
-      id: "content",
-      title: "Content",
+      id: "design",
+      title: "UI/UX Design",
     },
+    
   ];
 
   useEffect(() => {
@@ -70,11 +71,11 @@ export default function Portfolio() {
           />
         ))}
       </ul>
-      <div className="container">
+      <div className="container" >
         {data.map((d) => (
           <div className="item">
             <img
-              src={d.img}
+              src={d.img} 
               alt=""
             />
             <h3>{d.title}</h3>
