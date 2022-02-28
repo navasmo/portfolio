@@ -18,7 +18,7 @@ export default function Portfolio() {
       title: "Featured",
     },
     {
-      id: "web",
+      id: "webapp",
       title: "Web App",
     },
     {
@@ -26,11 +26,11 @@ export default function Portfolio() {
       title: "Graphic Design",
     },
     {
-      id: "design",
+      id: "webdesign",
       title: "Websites",
     },
     {
-      id: "design",
+      id: "UXdesign",
       title: "UI/UX Design",
     },
     
