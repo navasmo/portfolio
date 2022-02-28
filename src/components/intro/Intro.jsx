@@ -18,7 +18,11 @@ export default function Intro() {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
+<<<<<<< HEAD
           <img src= "assets/mnk.png" alt="" />
+=======
+          <img src="MNK.png" alt="" />
+>>>>>>> 652cd88 (repair)
         </div>
       </div>
       <div className="right">
