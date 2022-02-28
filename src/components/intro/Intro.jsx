@@ -28,7 +28,7 @@ export default function Intro() {
           <h3>
             Freelance <span ref={textRef}></span>
           </h3>
-          <h4>Scrolldown to view my Portfolio</h4>
+          
         </div>
         <a href="#portfolio">
           <img src="assets/down.png" alt="" />
