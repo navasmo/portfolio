@@ -18,11 +18,7 @@ export default function Intro() {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-<<<<<<< HEAD
-          <img src= "assets/mnk.png" alt="" />
-=======
           <img src="MNK.png" alt="" />
->>>>>>> 652cd88 (repair)
         </div>
       </div>
       <div className="right">
@@ -32,6 +28,7 @@ export default function Intro() {
           <h3>
             Freelance <span ref={textRef}></span>
           </h3>
+          <h4>Scrolldown to view my Portfolio</h4>
         </div>
         <a href="#portfolio">
           <img src="assets/down.png" alt="" />
