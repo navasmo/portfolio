@@ -37,7 +37,7 @@ export const featuredPortfolio = [
     },
   ];
   
-  export const webPortfolio = [
+  export const webappPortfolio = [
     {
       id: 1,
       title: "Patient Management System",
@@ -71,18 +71,18 @@ export const featuredPortfolio = [
     },
   ];
   
-  export const mobilePortfolio = [
+  export const graphicPortfolio = [
     {
       id: 1,
       title: "Mobile Social Media App",
       img:
-        "https://drive.google.com/file/d/1kSnCYwUrS1aQmYVL0WkNMD5n7VE31zo3/view?usp=sharing",
+        "https://cdn.dribbble.com/users/1998175/screenshots/15459384/media/48ac2b43ebe81ba0866afea1383cc939.png?compress=1&resize=1200x900",
     },
     {
       id: 2,
       title: "Mobile Rampa UI Design",
       img:
-        "https://cdn.dribbble.com/users/5920881/screenshots/15463142/media/b5a460223798bd85d835710806e2f3dd.png?compress=1&resize=1200x900",
+        "https://cdn.dribbble.com/users/1998175/screenshots/15459384/media/48ac2b43ebe81ba0866afea1383cc939.png?compress=1&resize=1200x900",
     },
     {
       id: 3,
@@ -110,7 +110,7 @@ export const featuredPortfolio = [
     },
   ];
   
-  export const designPortfolio = [
+  export const webdesignPortfolio = [
     {
       id: 1,
       title: "Design Social Media App",
@@ -149,7 +149,7 @@ export const featuredPortfolio = [
     },
   ];
   
-  export const contentPortfolio = [
+  export const UXdesignPortfolio = [
     {
       id: 1,
       title: "Content Social Media App",
