@@ -13,7 +13,7 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_ltyww77",
+        "service_qfzs5ng",
         "template_6f6y8an",
         formRef.current,
         "73Ul5C0HyqmNs4dYg"
@@ -35,8 +35,7 @@ const Contact = () => {
       <div className="left">
         <img src="assets/shake.svg" alt="" />
         <div className="itemContainer">
-            <Phone className="icon" />
-            <span>+44 7429006011</span>
+            <span><Phone className="icon" /> +44 7429006011</span>
           </div>
           <Button className="itemContainer" style={{textTransform: 'none'}} href="mailto:vhnavasse@gmail.com">
             <Mail className="icon" />
